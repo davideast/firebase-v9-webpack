@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --entry ./src/index.js -o ./public"
+    "build": "webpack --mode=development"
   },
   "keywords": [],
   "author": "",
