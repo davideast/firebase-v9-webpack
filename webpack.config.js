@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   // the location of the build folder described above
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   // Optional and for development only. This provides the ability to
