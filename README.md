@@ -13,7 +13,7 @@ This is a simple Firebase & Webpack starter.
 
 ```bash
 npm i
-npm dev
+npm start
 ```
 
 Open your port on `localhost:5000`.
