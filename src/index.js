@@ -2,8 +2,6 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { firebaseConfig } from './firebase-config';
 
-debugger;
-
 const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);
 onAuthStateChanged(auth, async user => {
